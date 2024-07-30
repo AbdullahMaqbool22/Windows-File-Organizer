@@ -1,5 +1,5 @@
 # Define the directory you want to organize
-$sourceDirectory = "D:\Vs Code"
+$sourceDirectory = "/directory/path"
 
 # Get all files in the directory
 $files = Get-ChildItem -Path $sourceDirectory -File
